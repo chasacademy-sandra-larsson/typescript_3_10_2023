@@ -1,0 +1,24 @@
+{
+  "name": "typescript_3_10_2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasacademy-sandra-larsson/typescript_3_10_2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasacademy-sandra-larsson/typescript_3_10_2023/issues"
+  },
+  "homepage": "https://github.com/chasacademy-sandra-larsson/typescript_3_10_2023#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
