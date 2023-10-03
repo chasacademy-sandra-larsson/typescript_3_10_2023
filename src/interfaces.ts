@@ -4,7 +4,7 @@ interface BaseShape {
     type: string
 }
 
-interface Circle extends BaseShape {
+interface Circle extends BaseShape  {
     radius: number;
 }
 
@@ -39,7 +39,7 @@ const circle: Circle = {
     type: "circle",
     radius: 10
 }
-const square: Square = {
+const rectangle: Rectangle = {
     type: "square",
     width: 10,
     height: 10
@@ -47,4 +47,4 @@ const square: Square = {
 
 console.log(calculateArea(circle))
 
-const shapes: BaseShape[] = [circle, square]
+const shapes: BaseShape[] = [circle, rectangle]
